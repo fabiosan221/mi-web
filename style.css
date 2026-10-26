@@ -1,0 +1,258 @@
+/* Paleta de colores 
+#07CD08 verde
+#c58a3e siena natural
+#f1f1f1 gris claro
+#F1EFE4 blanco
+#000000bf gris oscuro
+#000000 negro
+*/
+.btn-close-modal {
+    color: #F1EFE4;
+}
+
+#btn-flotante{
+    background-color: #07CD08;    
+    border-color: #07CD08;
+    color: #F1EFE4;    
+}
+
+#btn-flotante:hover{
+    background-color: #c58a3e;    
+    border-color: #F1EFE4;
+    color: #F1EFE4;    
+}
+
+.btn-blanco:hover{
+    background-color: #F1EFE4;
+    color: #000000;
+}
+
+.btn-blanco{
+    background-color:#000000;
+    color: #F1EFE4;
+}
+
+.btn-verde{
+    background-color: #07CD08;
+    color: #F1EFE4;
+}
+
+.btn-verde:hover{
+    background-color: #c58a3e;
+    color: #F1EFE4;
+}
+
+.btn-siena{
+    color: #fff;
+    background: #07CD08;
+    border-color: 1px solid #07CD08;
+}
+
+.btn-siena:hover{
+    color: #F1EFE4;
+    background: #c58a3e;
+    border-color: #c58a3e;
+}
+
+.card-borde{
+    border: #c58a3e;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center; 
+    align-items: stretch; 
+    flex-direction: row; 
+    flex-wrap: wrap; 
+    align-content: flex-start;
+}
+
+.fondo-gris{
+    background-color: #f1f1f1;
+}
+
+.fondo-siena{
+    background-color: #c58a3e;
+}
+
+.fondo-verde{
+    background-color: #07CD08;
+}
+
+.font-weight-600{
+    font-weight:600;
+}
+
+#footer{
+    background-color: #000000bf;
+}
+
+#logo{
+    max-width: 15%;
+}
+
+#icono-btn-flotante{
+    font-size: 1.5rem;
+}
+
+.iconos-redes{
+    font-size: 2rem;
+    color: #F1EFE4;
+}
+
+.iconos-redes:hover{
+    color: #07CD08;
+}
+
+.iconos-redes-contacto{
+    font-size: 2rem;
+    color: #c58a3e;
+}
+
+.iconos-redes-contacto:hover{
+    color: #07CD08;
+}
+
+.icono-feature{
+    font-size: 4rem;
+}
+
+.img-modal {
+    max-width: 90%;
+    transition: 1s;
+}
+
+.img-zoom:hover{
+    transform: scale(1.3);
+    transition: 1s;
+}
+
+.item-navegacion.active {
+    color: #07CD08 !important;
+    border-bottom: 4px solid #07CD08;
+}
+
+.item-navegacion:hover {
+    color: #c58a3e !important;
+    border-bottom: 4px solid #c58a3e;
+}
+
+#logo-footer{
+    max-width: 50%;
+    
+}
+
+.modal-header {
+    background-color: #c58a3e;
+    border-bottom: var(--bs-modal-header-border-width) solid #9d4b4b;
+    color: #F1EFE4;
+}
+
+/* .sombra-inferior{
+    border-color: #c58a3e;
+    box-shadow: 0px 10px 10px -8px rgba(197,138,62,1);
+} */
+
+.sin-borde{
+    border: none;
+}
+
+.texto-blanco{
+    color:#F1EFE4;
+}
+
+.texto-siena{
+    color: #c58a3e;
+}
+
+.texto-verde{
+    color: #07CD08;
+}
+
+/* --------------------------------------------Formularios--------------------------------------------  */
+.form-control {
+    background-color: #fff !important;
+    border: 2px solid #c58a3e !important;
+}
+
+.form-control:focus {
+    color: var(--bs-body-color);
+    background-color: var(--bs-body-bg);
+    border-color: #c58a3e;
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem rgba(212,116,141,.25);
+}
+
+/* --------------------------------------------Media Querys--------------------------------------------*/
+/* "sm" applies to x-small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+    
+    #btn-contacto{
+        text-align: center !important;
+    }
+
+    .card-cuerpo-index{
+        text-align: center;
+    }
+
+    /* .flex-container {
+        flex-direction: column;     
+    } */
+
+    .icono-center {
+        justify-content: center !important;        
+    }
+
+    .img-destacados{
+        max-width: 50%;
+        align-self: center !important;
+        margin-top: 1rem !important;
+    }
+
+    .img-marcas{
+        max-width: 50%;
+        margin-top: 1rem !important;
+        
+    }
+
+    .item-center{
+        text-align: center !important;
+    }
+
+    #logo {
+        max-width: 30%;
+    }
+
+    #logo-footer {
+        max-width: 15%;
+    }
+
+    .margin-bottom-tarjeta{
+        margin-bottom: 1rem !important;
+    }
+}
+
+/* "md" applies to small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+
+}
+
+/* "lg" applies to medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {
+
+}
+
+/* "xl" applies to large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) {
+
+}
+
+/* "xxl" applies to x-large devices (large desktops, less than 1400px) */
+@media (max-width: 1399.98px) {
+
+}
+/* --------------------------------------------Media Querys--------------------------------------------*/
+
+
+
+
